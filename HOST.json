@@ -1,0 +1,7 @@
+{
+  "db_host": "mongodb://database:27017/n2sky",
+  "alert_host" : "192.168.0.102",
+  "openstack": "192.168.0.105",
+  "openstack_user": "admin",
+  "openstack_password": "nomoresecret"
+}

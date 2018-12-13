@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "user" : "admin",
+    "server": "131.130.37.20",
+    "metric": "node_cpu",
+    "delay": "30",
+    "delaytype": "minutes",
+    "step": "1m",
+    "steptype": "m",
+    "violated": false,
+    "show": [
+      "openstack",
+      "overview"
+    ]
+  },
+  {
+    "id": 2,
+    "user" : "admin",
+    "server": "131.130.37.20",
+    "metric": "http_request_duration_microseconds",
+    "delay": "1",
+    "delaytype": "hours",
+    "step": "5m",
+    "steptype": "m",
+    "violated": false,
+    "show": [
+      "openstack",
+      "overview"
+    ]
+  },
+  {
+    "id": 3,
+    "user" : "admin",
+    "server": "131.130.37.24",
+    "metric": "http_request_duration_microseconds",
+    "delay": "1",
+    "delaytype": "hours",
+    "step": "5m",
+    "steptype": "m",
+    "violated": false,
+    "show": [
+      "131.130.37.24",
+      "overview"
+    ]
+  }
+]
